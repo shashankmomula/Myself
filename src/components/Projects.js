@@ -1,7 +1,11 @@
+import { Projectitems} from "../utils/ProjectData";
+import ProjectCard from "./ProjectCard";
 const Projects=()=>{
     return(
         <div>
-            <h1>Projects</h1>
+            {Projectitems.map((item) => (
+        <ProjectCard key={item.id} Title={item.Title} image={item.image} description={item.description} />
+      ))}
         </div>
     );
 };

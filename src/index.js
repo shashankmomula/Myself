@@ -7,6 +7,7 @@ import Books from "./components/Books";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
 const AppLayout = () =>{
     return (
         <div className="app">
@@ -41,6 +42,10 @@ const appRouter = createBrowserRouter([
             {
                 path:"/projects",
                 element:<Projects/>,
+            },
+            {
+                path:"/skills",
+                element:<Skills/>,
             }
            
         ],

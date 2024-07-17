@@ -5,7 +5,7 @@ import logo from '../final.png';
 
 const Header = () =>{
     return (
-      <div className="flex justify-between sm: bg-orange-100 w-90 h-30 from-stone-400 ">
+      <div className="flex justify-between sm: bg-orange-100 bg-opacity-45 w-90 h-30 from-stone-400 ">
         <div className="logo-container">
            <img src={logo} alt="Logo" className="size-28 rounded-md ml-10"/>
         </div>
