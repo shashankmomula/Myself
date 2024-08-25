@@ -3,11 +3,12 @@ import ReactDOM from "react-dom/client";
 import React from "react";
 import Body from "./components/Body";
 import About from "./components/About";
-import Books from "./components/Books";
+import Books from "./components/BooksSection";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+import PublicationsInsights from "./components/PublicationInsights";
 const AppLayout = () =>{
     return (
         <div className="app">
@@ -36,8 +37,8 @@ const appRouter = createBrowserRouter([
                 element:<Contact/>,
             },
             {
-                path:"/books",
-                element:<Books/>,
+                path:"/publicationsInsights",
+                element:<PublicationsInsights/>,
             },
             {
                 path:"/projects",

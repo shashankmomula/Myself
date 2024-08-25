@@ -12,7 +12,7 @@ function BookCard({image,description}) {
   };
 
   return (
-    <div className='bg-slate-50  shadow-black hover:shadow-inner m-2'>
+    <div className=' shadow-black '>
       
         <div className="flex items-center">
           <img src={image} alt="Book" className="w-52 ml-40 m-7 shadow-gray-900 hover:shadow-2xl" />
@@ -25,7 +25,7 @@ function BookCard({image,description}) {
 </svg> }
             </div>
             {isVisible && (
-        <div className="bg-slate-100 border border-b-slate-100 mr-9 p-2">
+        <div className=" mr-9 p-2">
          {description}
          <div className="flex justify-end">
                 <a href="https://notionpress.com/author/928880" target="_blank">

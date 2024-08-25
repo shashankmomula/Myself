@@ -17,12 +17,12 @@ export const Bookitems = [
 <li>Hands-on exercises to reinforce your learning and build your coding skills.</li>
 </p>),
   },
-  {
-    id:2,
-    image:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coming-soon%2Creopening%2C-event%2Cretail%2Csale-design-template-79543bc1062ebb6f9eb55d1bb7994d49_screen.jpg?ts=1637031683",
-    description:(
-        <p className="text-xl"><span className="font-bold">Attention, all coders!</span> 🎉 My next book is almost here, and it's going to be a game-changer. Get ready to unlock new levels of knowledge and fun. Stay tuned, <span className="font-bold">it's coming soon!</span></p>
-    ),
-  },
+  // {
+  //   id:2,
+  //   image:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coming-soon%2Creopening%2C-event%2Cretail%2Csale-design-template-79543bc1062ebb6f9eb55d1bb7994d49_screen.jpg?ts=1637031683",
+  //   description:(
+  //       <p className="text-xl"><span className="font-bold">Attention, all coders!</span> 🎉 My next book is almost here, and it's going to be a game-changer. Get ready to unlock new levels of knowledge and fun. Stay tuned, <span className="font-bold">it's coming soon!</span></p>
+  //   ),
+  // },
   
 ];

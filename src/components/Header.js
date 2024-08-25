@@ -5,7 +5,7 @@ import logo from '../final.png';
 
 const Header = () =>{
     return (
-      <div className="flex justify-between sm: bg-orange-100 bg-opacity-45 w-90 h-30 from-stone-400 ">
+      <div className="flex justify-between  bg-opacity-30 w-90 h-30 bg-gradient-to-tr bg-orange-300">
         <div className="logo-container">
            <img src={logo} alt="Logo" className="size-28 rounded-md ml-10"/>
         </div>
@@ -25,7 +25,7 @@ const Header = () =>{
               <Link to="/projects">Projects</Link>
             </li>
             <li className="px-4">
-              <Link to="/books">Books</Link>
+              <Link to="/PublicationsInsights">Publications & Insights</Link>
             </li>
            
           

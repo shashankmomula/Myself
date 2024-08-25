@@ -1,26 +1,35 @@
-import { Carousel } from "@material-tailwind/react";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
- import Book1 from "../Book1.png";
-const ImageCarousel=()=> {
+import React from "react";
+import Slider from "react-slick";
+
+const Carousel = ({images}) => {
+  const settings = {
+    dots: true,              // Shows navigation dots
+    infinite: true,          // Enables infinite looping of slides
+    speed: 500,              // Transition speed in milliseconds
+    slidesToShow: 1,         // Number of slides to show at once
+    slidesToScroll: 1,       // Number of slides to scroll at once
+    autoplay: true,          // Enables automatic slide movement
+    autoplaySpeed: 2000,     // Time between each slide transition in milliseconds
+    arrows: false             // Shows navigation arrows
+  };
+  
   return (
-    <Carousel className="rounded-xl">
-      <img
-        src={Book1}
-        alt="image 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
-    </Carousel>
+    <div className="carousel-container">
+      <Slider {...settings}>
+        {images.map((img, index) => (
+          <div key={index}>
+            <img
+              src={img}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-60 mt-8 object-cover rounded-lg"
+            />
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
-
-export default ImageCarousel;
+export default Carousel;

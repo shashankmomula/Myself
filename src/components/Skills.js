@@ -9,7 +9,7 @@ const skills = [
   // { name: 'C++', icon:  level: '70%' },
   { name: 'HTML', icon: <FaHtml5 className="text-orange-500" />, level: '90%' },
   { name: 'CSS', icon: <FaCss3Alt className="text-blue-600" />, level: '85%' },
-  { name: 'JavaScript', icon: <FaJs className="text-yellow-300" />, level: '80%' },
+  { name: 'JavaScript', icon: <FaJs className="text-yellow-300" />, level: '70%' },
   { name: 'React', icon: <FaReact className="text-blue-600" />, level: '75%' },
   { name: 'Java', icon: <FaJava className="text-sky-800" />, level: '75%' },
   // { name: 'DSA', icon: <IoCodeWorking />, level: '40%' },
@@ -31,7 +31,7 @@ const Skills = () => {
                 <span className="text-sm font-medium">{skill.level}</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="hover:bg-cyan-200 h-2.5 rounded-full cursor-pointer" style={{ width: skill.level }}></div>
+                <div className="hover:bg-orange-300 h-2.5 rounded-full cursor-pointer" style={{ width: skill.level }}></div>
               </div>
             </div>
           </div>
