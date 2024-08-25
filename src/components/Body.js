@@ -7,7 +7,7 @@ const Body =()=>{
     return(
         <section className="flex justify-between">
          <div className="felx justify-between ">
-      <div className="font-serif pt-28 m-10 text-4xl">
+      <div className="font-serif pt-28 m-10 text-4xl sm:">
         <h1>Hi, My name is Shashank</h1>
         <h2>
           and I am good at{' '}
@@ -24,21 +24,20 @@ const Body =()=>{
           </span>
         </h2>
       </div>
-      <div >
+      <div className="flex">
         <a href="/skills">
-        <button className="bg-amber-100 rounded-md p-5 m-5">Explore My work</button>
+        <button className="bg-amber-100 rounded-md p-5 m-5 sm:w-auto h-auto">Explore My work</button>
         </a>
       <a href="/contact">
-      <button className="bg-slate-400 rounded-md p-5 m-5 bg-opacity-15">Get In Touch</button>
+      <button className="bg-slate-400 rounded-md p-5 m-5 bg-opacity-15 sm:">Get In Touch</button>
       </a>
       
       </div>
       
       
     </div>
-            <div className="
-              w-2/5 m-2">
-                <img src={LOGO}/>
+            <div className="w-full m-2 sm:w-1/2 pt-36">
+                <img src={LOGO} className='w-2/3 ml-28 '/>
             </div>
             
         </section>

@@ -11,7 +11,7 @@ import CertificateSection from './Certificatesection';
 
 const PublicationsInsights = () => {
   return (
-    <div id="publications-insights">
+    <div className="">
       <BackgroundNav />
      {/* <Accordion/> */}
       <div id='books'>
