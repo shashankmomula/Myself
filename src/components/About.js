@@ -11,7 +11,7 @@ const About = () => {
         <div className="md:w-1/3 mt-10 flex flex-col items-center">
           <img
             src={image}
-            className="md:h-96 md:w-60 w-64 h-64 rounded-full border border-black-500"
+            className="w-32 h-48 md:h-96 md:w-60  rounded-full border border-black-500"
             alt="Profile"
           />
           <div className="flex  mt-6">
@@ -22,7 +22,7 @@ const About = () => {
             >
               <img
                 src={LINKEDIN}
-                className="w-10 h-10 md:w-12 md:h-12 cursor-pointer"
+                className="w-10 h-10 md:w-8 md:h-8 cursor-pointer mt-2 mr-1.5"
                 alt="LinkedIn"
               />
             </a>

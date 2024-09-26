@@ -11,7 +11,7 @@ const Contact= () => {
         
         <div className="flex justify-end">
                 <a href="https://www.linkedin.com/in/momula-shashank-92a2a925a/" target="_blank">
-                    <img src={LINKEDIN} className="w-20 h-20  cursor-pointer"/>
+                    <img src={LINKEDIN} className="w-12 h-12  mt-4 mr-3 cursor-pointer"/>
                 </a>
                 <a href="https://github.com/shashankmomula/" target="_blank">
                     <img src={GITHUB} className="w-10 h-10 mt-5 cursor-pointer"/>

@@ -5,15 +5,15 @@ import { LOGO } from "../utils/Constants";
 
 const Body =()=>{
     return(
-        <section className="flex justify-between">
-         <div className="felx justify-between ">
-      <div className="font-serif pt-28 m-10 text-4xl sm:">
+        <section className="flex flex-col-reverse sm:flex-row justify-between items-center sm:items-start">
+         <div className="flex flex-col items-center sm:items-start pt-10 sm:pt-28elx justify-between sm:flex flex-col">
+      <div className="font-serif text-center text-4xl sm:text-left m-10 sm:text-2xl">
         <h1>Hi, My name is Shashank</h1>
         <h2>
           and I am good at{' '}
           <span className="text-yellow-800 font-serif">
             <Typewriter
-              words={['HTML','Javascript','React','C++','DSA','Java','Redux','Tailwind']}
+              words={['HTML','Javascript','React','C++','DSA','Java','Redux','Tailwind','Node.js']}
               loop={5}
               cursor
               cursorStyle='|'
@@ -36,8 +36,8 @@ const Body =()=>{
       
       
     </div>
-            <div className="w-full m-2 sm:w-1/2 pt-36">
-                <img src={LOGO} className='w-2/3 ml-28 '/>
+            <div className="w-1/3 mr-28">
+                <img src={LOGO} className='mr-28 sm:mt-10'/>
             </div>
             
         </section>
