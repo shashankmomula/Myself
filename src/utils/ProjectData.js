@@ -8,13 +8,13 @@ export const Projectitems = [
       Title:"A movie recommendation app powered by GPT-3.5 Turbo integration. 🚀",
    image:Netflixgpt1,
       description:(<> <p class=" text-xs md:text-xl">➡️ GPT Search, using the latest GPT-3.5 Turbo API 🚀.</p>
-        <p class=" text-xs md:text-xl">➡️ Authentication - Sign Up, Log In, Sign Out.</p>
-        <p class=" text-xs md:text-xl">➡️ Form Handling, and Form validations</p>
-        <p class=" text-xs md:text-xl">➡️ Advanced Tailwind.</p>
-        <p class=" text-xs md:text-xl">➡️ useRef hook.</p>
-        <p class=" text-xs md:text-xl">➡️ Multi-Language support.</p>
-        <p class=" text-xs md:text-xl">➡️ Advanced data handling with Redux Toolkit.</p>
-        <p class=" text-xs md:text-xl">➡️ Use of .env files to secure secret API keys</p></>),
+        <p class=" text-sm md:text-xl">➡️ Authentication - Sign Up, Log In, Sign Out.</p>
+        <p class=" text-sm md:text-xl">➡️ Form Handling, and Form validations</p>
+        <p class=" text-sm md:text-xl">➡️ Advanced Tailwind.</p>
+        <p class=" text-sm md:text-xl">➡️ useRef hook.</p>
+        <p class=" text-sm md:text-xl">➡️ Multi-Language support.</p>
+        <p class=" text-sm md:text-xl">➡️ Advanced data handling with Redux Toolkit.</p>
+        <p class=" text-sm md:text-xl">➡️ Use of .env files to secure secret API keys</p></>),
     },
     {
       id:2,

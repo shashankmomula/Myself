@@ -2,6 +2,7 @@ import { Button } from "@material-tailwind/react";
 import image from "../IMG_4449.jpg";
 import ProgressColors from "./Skills";
 import Skills from "./Skills";
+// import resume from "../../public/NEW_RESUME.pdf"
 import { GITHUB, LINKEDIN, MAIL } from "../utils/Constants";
 
 const About = () => {
@@ -70,9 +71,12 @@ const About = () => {
             aiming to secure a position in top multinational companies (MNCs).
           </p>
           <div className="flex justify-center mt-6">
+            <a href="/NEW_RESUME.pdf" target="_blank" rel="noopener noreferrer">
             <button className="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition delay-150 duration-300 ease-in-out">
               Resume
             </button>
+            </a>
+            
           </div>
         </div>
       </div>
