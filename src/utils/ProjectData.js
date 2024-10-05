@@ -15,6 +15,7 @@ export const Projectitems = [
         <p class=" text-sm md:text-xl">➡️ Multi-Language support.</p>
         <p class=" text-sm md:text-xl">➡️ Advanced data handling with Redux Toolkit.</p>
         <p class=" text-sm md:text-xl">➡️ Use of .env files to secure secret API keys</p></>),
+        url:"https://github.com/shashankmomula/Netflix-Gpt",
     },
     {
       id:2,
@@ -28,6 +29,7 @@ export const Projectitems = [
         <p class=" text-xs md:text-xl">➡️ Live API data and data handling</p>
         <p class=" text-xs md:text-xl">➡️ Testing</p>
         </>),
+        url:"https://github.com/shashankmomula/Cravings",
     },
     {
         id:3,
@@ -39,6 +41,7 @@ export const Projectitems = [
           <p class=" text-xs md:text-xl">➡️ React hooks</p>
          
           </>),
+          url:"https://github.com/shashankmomula/Myself",
     },
     
   ];

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GITHUB } from "../utils/Constants";
 
 
-const ProjectCard = ({ Title, image, description }) => {
+const ProjectCard = ({ Title, image, description,URL }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -32,6 +32,23 @@ const ProjectCard = ({ Title, image, description }) => {
   <div className="flex flex-col gap-y-2">
     {description}
   </div>
+  <div className="flex  md:flex-row ">
+    <button
+        className="bg-slate-300 hover:bg-slate-400 font-semibold rounded-md m-2 p-3"
+        onClick={() => window.open(URL, "_blank")}
+    >
+        View Code
+    </button>
+    
+    <button
+        className="bg-slate-300 hover:bg-slate-400 font-semibold rounded-md m-2 p-3"
+        onClick={() => window.open("", "_blank")}
+    >
+        Try Now
+    </button>
+</div>
+
+
 </div>
 
     </div>

@@ -14,10 +14,10 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center w-full h-24 shadow-sm px-4 sm:px-8">
+    <header className="flex justify-between items-center w-full h-24 shadow-lg px-4 sm:px-8">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="w-16 h-16 rounded-md" />
+        <img src={logo} alt="Logo" className="w-28 h-28 rounded-md" />
       </div>
       
       {/* Hamburger Menu Icon for Mobile */}

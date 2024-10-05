@@ -1,7 +1,8 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { LOGO } from "../utils/Constants";
-
+// import { Link } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 const Body =()=>{
     return(
@@ -25,16 +26,17 @@ const Body =()=>{
   </h2>
 </div>
 
-      <div className="flex sm:ml-36">
-        <a href="/skills">
-        <button className="bg-amber-100 rounded-md p-5 m-5 sm:w-auto h-auto">Explore My work</button>
-        </a>
-      <a href="/contact">
-      <button className="bg-slate-400 rounded-md p-5 m-5 bg-opacity-15 sm:">Get In Touch</button>
-      </a>
-      
-      </div>
-      
+
+
+<div className="flex sm:ml-36">
+    <Link to="/skills">
+        <button className="bg-amber-100 rounded-md p-5 m-5 sm:w-auto h-auto">Explore My Work</button>
+    </Link>
+    <Link to="/contact">
+        <button className="bg-slate-400 rounded-md p-5 m-5 bg-opacity-15 sm:">Get In Touch</button>
+    </Link>
+</div>
+
       
     </div>
     <div className="w-full sm:w-1/3 mr-0 sm:mr-28 flex justify-center sm:justify-start">

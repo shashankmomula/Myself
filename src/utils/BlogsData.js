@@ -1,5 +1,6 @@
 import Blog1 from "../read_redux.png";
 import Blog2 from "../article1.png";
+import Blog3 from "../comming soon.jpeg";
 export const Blogitems = [
     {
         id:1,
@@ -13,6 +14,13 @@ export const Blogitems = [
         image:Blog2,
         title:"From Setup to Mastery: Dive into Efficient State Management with Redux Toolkit in React",
         description:(<p>Transform your React projects with Redux Toolkit. This guide takes you from <span className="text-blue-800">setup to expert-level</span> state management, simplifying complex workflows with clarity and precision.</p>),
+        url:"",
+    },
+    {
+        id:3,
+        image:Blog3,
+        title:"The Blog That Shall Not Be Named 🕵️‍♂️",
+        description:(<p>Something epic is brewing, but the title is <span className="text-blue-800">too powerful to reveal</span> just yet. Stay tuned for a dose of tech magic, insights, and a sprinkle of mystery!"</p>),
         url:"",
     }
 
