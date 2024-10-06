@@ -34,7 +34,7 @@ const Skills = () => {
                 <span className="text-sm font-medium">{skill.level}</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-orange-300 h-2.5 rounded-full cursor-pointer" style={{ width: skill.level }}></div>
+                <div className="bg-gray-400 h-2.5 rounded-full cursor-pointer" style={{ width: skill.level }}></div>
               </div>
             </div>
           </div>

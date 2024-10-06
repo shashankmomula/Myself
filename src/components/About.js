@@ -5,6 +5,13 @@ import Skills from "./Skills";
 // import resume from "../../public/NEW_RESUME.pdf"
 import { GITHUB, LINKEDIN, MAIL } from "../utils/Constants";
 
+const openPDF = () => {
+  window.open(
+    "https://drive.google.com/file/d/1kRDRSOVQGSWov5MfpWTu8i-9fXmxDuOL/view",
+    "_blank"
+  );
+};
+
 const About = () => {
   return (
     <>
@@ -70,13 +77,14 @@ const About = () => {
             Structures and Algorithms <span className="font-bold">(DSA)</span>,
             aiming to secure a position in top multinational companies (MNCs).
           </p>
+          
           <div className="flex justify-center mt-6">
-            <a href="/NEW_RESUME.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition delay-150 duration-300 ease-in-out">
+            <button
+              onClick={openPDF} // Add the onClick event here
+              className="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition delay-150 duration-300 ease-in-out"
+            >
               Resume
             </button>
-            </a>
-            
           </div>
         </div>
       </div>

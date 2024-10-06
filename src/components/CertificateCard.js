@@ -8,9 +8,9 @@ const CertificateCard = ({ title, description, image }) => {
           className="object-cover w-full h-full rounded-t-lg md:rounded-l-lg md:rounded-t-none"
         />
       </div>
-      <div className="p-4 w-full md:w-1/2">
+      <div className="p-4 w-full md:w-1/2 text-justify">
         <h1 className="text-xl font-semibold mb-2">{title}</h1>
-        <p className="text-gray-700">{description}</p>
+        <p className="text-gray-700 p-2">{description}</p>
       </div>
     </div>
   );
