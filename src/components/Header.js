@@ -19,8 +19,7 @@ const Header = () => {
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="w-28 h-28 rounded-md" />
       </div>
-      
-      {/* Hamburger Menu Icon for Mobile */}
+
       <div className="sm:hidden">
         <button onClick={toggleMenu} className="text-gray-800 bg-slate-200 rounded-lg focus:outline-none">
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +29,7 @@ const Header = () => {
       </div>
       
       {/* Navigation Links */}
-      <nav className={`flex-col sm:flex-row sm:flex space-x-6 absolute sm:relative top-24 rounded-lg sm:top-auto right-3 sm:right-0 p-4 sm:p-0 ${isOpen ? 'flex' : 'hidden'} sm:flex text-right ${isOpen ? 'bg-black text-white' : 'bg-transparent text-black'}`}>
+      <nav className={`fixed flex-col sm:flex-row sm:flex space-x-6 absolute sm:relative top-24 rounded-lg sm:top-auto right-3 sm:right-0 p-4 sm:p-0 ${isOpen ? 'flex' : 'hidden'} sm:flex text-right ${isOpen ? 'bg-black text-white' : 'bg-transparent text-black'}`}>
   <Link to="/" className=" hover:text-orange-600 transition duration-300 m-1 p-1" onClick={closeMenu}>Home</Link>
   <Link to="/about" className="hover:text-orange-600 transition duration-300 m-1 p-1"onClick={closeMenu}>About Me</Link>
   <Link to="/contact" className="hover:text-orange-600 transition duration-300 m-1 p-1"onClick={closeMenu}>Contact</Link>

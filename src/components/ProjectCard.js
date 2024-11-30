@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GITHUB } from "../utils/Constants";
 
-const ProjectCard = ({ Title, image, description, URL }) => {
+const ProjectCard = ({ Title, image, description, GIT_URL, HOST_URL }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -26,19 +26,19 @@ const ProjectCard = ({ Title, image, description, URL }) => {
         {/* Description Section */}
         <div className="p-4 md:p-6 flex flex-col gap-y-4">
           <div className="flex flex-col gap-y-2">
-            <p>{description}</p>
+            <p className="overflow-hidden text-ellipsis">{description}</p>
           </div>
           <div className="flex flex-col md:flex-row">
             <button
               className="bg-slate-300 hover:bg-slate-400 font-semibold rounded-md m-2 p-3"
-              onClick={() => window.open(URL, "_blank")}
+              onClick={() => window.open(GIT_URL, "_blank")}
             >
               View Code
             </button>
-            
+
             <button
               className="bg-slate-300 hover:bg-slate-400 font-semibold rounded-md m-2 p-3"
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open(HOST_URL, "_blank")}
             >
               Try Now
             </button>

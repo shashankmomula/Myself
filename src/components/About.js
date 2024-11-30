@@ -65,7 +65,7 @@ const About = () => {
             I am <span className="text-gray-800 font-bold">M. Shashank</span>, a
             19-year-old Bachelor of Technology graduate in Artificial
             Intelligence and Data Science from St. Martin's Engineering College,
-            with a CGPA of 9.18. I authored "Explore Your C Programming," a book
+            with a CGPA of 9.09. I authored "Explore Your C Programming," a book
             covering both foundational and advanced concepts of the C
             programming language. Passionate about teaching, I actively educate
             peers and juniors in various programming languages and development
@@ -77,7 +77,7 @@ const About = () => {
             Structures and Algorithms <span className="font-bold">(DSA)</span>,
             aiming to secure a position in top multinational companies (MNCs).
           </p>
-          
+
           <div className="flex justify-center mt-6">
             <button
               onClick={openPDF} // Add the onClick event here
