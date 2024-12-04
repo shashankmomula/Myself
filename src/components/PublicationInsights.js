@@ -11,7 +11,7 @@ import CertificateSection from './Certificatesection';
 
 const PublicationsInsights = () => {
   return (
-    <div className="">
+    <div className="min-h-screen flex flex-col">
       <BackgroundNav />
      {/* <Accordion/> */}
       <div id='books'>

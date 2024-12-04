@@ -8,8 +8,8 @@ export const Blogitems = [
     title:
       "Unlocking React's Secret: Mastering Reconciliation and the Diff algorithm",
     description: (
-      <p>
-        Unlock the <span className="text-blue-800">hidden power of React</span>{" "}
+      <p className="dark:text-slate-300">
+        Unlock the <span className="text-blue-800 dark:text-orange-300">hidden power of React</span>{" "}
         by mastering reconciliation and the Diff algorithm. Discover how React
         efficiently updates the DOM, ensuring your apps run faster and smoother.
       </p>
@@ -22,9 +22,9 @@ export const Blogitems = [
     title:
       "From Setup to Mastery: Dive into Efficient State Management with Redux Toolkit in React",
     description: (
-      <p>
+      <p className="dark:text-slate-300">
         Transform your React projects with Redux Toolkit. This guide takes you
-        from <span className="text-blue-800">setup to expert-level</span> state
+        from <span className="text-blue-800 dark:text-orange-300">setup to expert-level</span> state
         management, simplifying complex workflows with clarity and precision.
       </p>
     ),
@@ -36,12 +36,12 @@ export const Blogitems = [
     title:
       "Master Time and Space Complexity: Optimize Your Algorithms Effectively",
     description: (
-      <p>
+      <p className="dark:text-slate-300">
         Understand time and space complexity with clear explanations and
         real-world examples. This blog simplifies key concepts,{" "}
-        <span className="text-blue-800">clears common misconceptions</span>, and
+        <span className="text-blue-800 dark:text-orange-300">clears common misconceptions</span>, and
         helps you{" "}
-        <span className="text-blue-800">optimize algorithms effectively</span>.
+        <span className="text-blue-800 dark:text-orange-300">optimize algorithms effectively</span>.
         Perfect for coding interviews and problem-solving!
       </p>
     ),

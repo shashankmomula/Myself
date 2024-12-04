@@ -4,7 +4,7 @@ import { GITHUB } from "../utils/Constants";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       {Projectitems.map((item) => (
         <ProjectCard
           key={item.id}

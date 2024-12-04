@@ -7,7 +7,7 @@ export const Certificates = [
     title: "Namaste React - Mastering Modern React Development",
     image: certificate1,
     description: (
-      <p>
+      <p className="dark:text-white">
         Successfully completed the comprehensive{" "}
         <span className="text-rose-600">Namaste React </span>course by
         <span className="text-rose-600">Akshay Saini on NamasteDev</span>. This
@@ -27,7 +27,7 @@ export const Certificates = [
     title: "Mastering Data Structures & Algorithms using C and C++",
     image: certificate2,
     description: (
-      <p>
+      <p className="dark:text-white">
         Successfully completed the{" "}
         <span className="text-rose-600">
           Mastering Data Structures & Algorithms using C and C++
@@ -53,7 +53,7 @@ export const Certificates = [
       "Namaste Node.js - Unlocking the Power of Scalable Backend Development",
     image: certificate3,
     description: (
-      <p>
+      <p className="dark:text-white">
         Successfully completed the comprehensive{" "}
         <span className="text-rose-600">Namaste Node.js </span>course by
         <span className="text-rose-600">Akshay Saini on NamasteDev</span>. This

@@ -15,7 +15,7 @@ const openPDF = () => {
 const About = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between p-6">
+      <div className="md:flex-row justify-between p-6 min-h-screen flex flex-col">
         <div className="md:w-1/3 mt-10 flex flex-col items-center">
           <img
             src={image}
@@ -41,7 +41,7 @@ const About = () => {
             >
               <img
                 src={GITHUB}
-                className="w-10 h-10 md:w-12 md:h-12 cursor-pointer"
+                className="w-10 h-10 md:w-12 md:h-12 cursor-pointer rounded-3xl"
                 alt="GitHub"
               />
             </a>
@@ -61,9 +61,12 @@ const About = () => {
 
         <div className="md:w-2/3 mt-10 md:mt-0">
           <h1 className="text-4xl font-serif text-center mb-7">About Me</h1>
-          <p className="bg-blue-100 text-lg md:text-xl font-sans p-4 rounded-lg bg-opacity-20 text-justify">
-            I am <span className="text-gray-800 font-bold">M. Shashank</span>, a
-            19-year-old Bachelor of Technology graduate in Artificial
+          <p className="bg-blue-100 text-lg md:text-xl font-sans p-4 rounded-lg bg-opacity-20 text-justify dark:bg-opacity-5">
+            I am{" "}
+            <span className="text-gray-800 font-bold dark:text-yellow-200">
+              M. Shashank
+            </span>
+            , a 19-year-old Bachelor of Technology graduate in Artificial
             Intelligence and Data Science from St. Martin's Engineering College,
             with a CGPA of 9.09. I authored "Explore Your C Programming," a book
             covering both foundational and advanced concepts of the C
@@ -73,8 +76,11 @@ const About = () => {
             Coding Club, where I teach web development and coding. My interests
             lie in exploring topics in depth and continuously learning and
             teaching in the field of programming. I am focused on enhancing my{" "}
-            <span className="font-bold">problem-solving skills</span> in Data
-            Structures and Algorithms <span className="font-bold">(DSA)</span>,
+            <span className="font-bold dark:text-yellow-200">
+              problem-solving skills
+            </span>{" "}
+            in Data Structures and Algorithms{" "}
+            <span className="font-bold dark:text-yellow-200">(DSA)</span>,
             aiming to secure a position in top multinational companies (MNCs).
           </p>
 

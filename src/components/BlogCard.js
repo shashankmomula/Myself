@@ -7,7 +7,7 @@ const BlogCard = ({ image, title, description, url }) => {
 
   return (
     <div
-      className="m-7 p-4 rounded-lg bg-gray-100 cursor-pointer sm:w-full md:w-96 hover:shadow-lg transition-shadow duration-300"
+      className="m-7 p-4 rounded-lg bg-gray-100 cursor-pointer sm:w-full md:w-96 hover:shadow-lg transition-shadow duration-300 dark:bg-slate-900 border"
       onClick={handleClick}
     >
       <div className="relative group overflow-hidden rounded-t-lg">
@@ -18,7 +18,7 @@ const BlogCard = ({ image, title, description, url }) => {
       </div>
 
       <div className="p-4">
-        <h1 className="text-xl font-semibold mb-2 text-center">{title}</h1>
+        <h1 className="text-xl font-semibold mb-2 text-center ">{title}</h1>
         <p className="text-gray-700 text-justify">{description}</p>
       </div>
     </div>

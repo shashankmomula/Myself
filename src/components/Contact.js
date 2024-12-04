@@ -6,10 +6,10 @@ const Contact= () => {
     <div className="p-8">
         <div >
             <div className="flex justify-center">
-            <h2 className="text-3xl font-bold  font-sans mr-25 flex justify-center">Get in Touch</h2>
+            <h2 className="text-3xl font-bold  font-sans mr-25 flex justify-center mb-4">Get in Touch</h2>
             </div>
         
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
                 <a href="https://www.linkedin.com/in/momula-shashank-92a2a925a/" target="_blank">
                     <img src={LINKEDIN} className="w-12 h-12  mt-4 mr-3 cursor-pointer"/>
                 </a>
@@ -20,25 +20,25 @@ const Contact= () => {
                     <img src={MAIL} className="w-14 h-14 mt-3 ml-3 cursor-pointer"/>    
                 </a>
            
-            </div>
+          </div> */}
           
         </div>
       
       {/* <div className="border-t-4 border-gray-300 my-4"></div> */}
-      <form className="max-w-lg mx-auto p-6 bg-slate-100 rounded shadow-md">
+      <form className="max-w-lg mx-auto p-6 bg-slate-100 rounded shadow-md dark:bg-slate-900 border">
         <div className="mb-4">
-          <label className=" text-gray-700 text-sm font-bold mb-2" >
+          <label className=" text-gray-700 text-sm font-bold mb-2 dark:text-white" >
             Name
           </label>
           <input
             id="name"
             type="text"
             placeholder="Your name"
-            className="shadow border rounded w-full py-2 px-3 text-gray-700 "
+            className="shadow border rounded w-full py-2 px-3 text-black"
           />
         </div>
         <div className="mb-4">
-          <label className=" text-gray-700 text-sm font-bold mb-2" >
+          <label className=" text-gray-700 text-sm font-bold mb-2 dark:text-white" >
             Email
           </label>
           <input
@@ -49,7 +49,7 @@ const Contact= () => {
           />
         </div>
         <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-white">
             Message
           </label>
           <textarea

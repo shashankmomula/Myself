@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/shashankmomula/Myself/static/css/main.6b47fca1.css",
-    "main.js": "/shashankmomula/Myself/static/js/main.0921961e.js",
+    "main.css": "/shashankmomula/Myself/static/css/main.3610ee39.css",
+    "main.js": "/shashankmomula/Myself/static/js/main.481e2dca.js",
     "static/media/IMG_4449.jpg": "/shashankmomula/Myself/static/media/IMG_4449.54d5bdfcd3ef58c9283f.jpg",
     "static/media/cravings1.png": "/shashankmomula/Myself/static/media/cravings1.9656edb6065df90c0e33.png",
     "static/media/CA-1.png": "/shashankmomula/Myself/static/media/CA-1.b2d6e1d66d85b20c363c.png",
     "static/media/Netflixgpt1.png": "/shashankmomula/Myself/static/media/Netflixgpt1.505b8d7aa5a2250d5a9f.png",
     "static/media/certificate.webp": "/shashankmomula/Myself/static/media/certificate.0c0812691758ccb55f95.webp",
-    "static/media/CA-2.png": "/shashankmomula/Myself/static/media/CA-2.27551363d1fa04ce2136.png",
     "static/media/CA-3.png": "/shashankmomula/Myself/static/media/CA-3.1b6f60e2a74516280ca5.png",
     "static/media/certificate_node.webp": "/shashankmomula/Myself/static/media/certificate_node.009a5d29dda76064645e.webp",
     "static/media/DevTinder_EditProfile.png": "/shashankmomula/Myself/static/media/DevTinder_EditProfile.2bd77da147047da46e77.png",
     "static/media/Book1.png": "/shashankmomula/Myself/static/media/Book1.2db06e55689dfce30202.png",
+    "static/media/CA.jpg": "/shashankmomula/Myself/static/media/CA.bc8eb821c068eff41944.jpg",
     "static/media/UDEMY_DSA.png": "/shashankmomula/Myself/static/media/UDEMY_DSA.ba84fee57972505ec41a.png",
     "static/media/portfolio1.png": "/shashankmomula/Myself/static/media/portfolio1.323f017e85ac1e052af3.png",
     "static/media/read_redux.png": "/shashankmomula/Myself/static/media/read_redux.f07bcc9b33f7a1ef4a59.png",
@@ -23,11 +23,11 @@
     "static/media/slick.ttf": "/shashankmomula/Myself/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/shashankmomula/Myself/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/shashankmomula/Myself/index.html",
-    "main.6b47fca1.css.map": "/shashankmomula/Myself/static/css/main.6b47fca1.css.map",
-    "main.0921961e.js.map": "/shashankmomula/Myself/static/js/main.0921961e.js.map"
+    "main.3610ee39.css.map": "/shashankmomula/Myself/static/css/main.3610ee39.css.map",
+    "main.481e2dca.js.map": "/shashankmomula/Myself/static/js/main.481e2dca.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b47fca1.css",
-    "static/js/main.0921961e.js"
+    "static/css/main.3610ee39.css",
+    "static/js/main.481e2dca.js"
   ]
 }
