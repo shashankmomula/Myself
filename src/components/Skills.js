@@ -8,6 +8,7 @@ import {
   FaCuttlefish,
   FaPlus,
   FaNodeJs,
+  FaPython,
 } from "react-icons/fa";
 import { DiCplusplus, DiC } from "react-icons/di";
 import { IoCodeWorking, IoSettings } from "react-icons/io5";
@@ -27,6 +28,11 @@ const skills = [
   {
     name: "Node.js",
     icon: <FaNodeJs className="text-green-600" />,
+    level: "80%",
+  },
+  {
+    name: "Node.js",
+    icon: <FaPython className="text-yellow-200" />,
     level: "80%",
   },
 

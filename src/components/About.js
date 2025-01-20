@@ -4,10 +4,11 @@ import ProgressColors from "./Skills";
 import Skills from "./Skills";
 // import resume from "../../public/NEW_RESUME.pdf"
 import { GITHUB, LINKEDIN, MAIL } from "../utils/Constants";
+import Timeline from "./Timeline";
 
 const openPDF = () => {
   window.open(
-    "https://drive.google.com/file/d/1kRDRSOVQGSWov5MfpWTu8i-9fXmxDuOL/view",
+    "https://drive.google.com/file/d/17l6Vsyw8Y5pMw1NkE1yUYpoSyrGZ3op4/view?usp=drive_link/view",
     "_blank"
   );
 };
@@ -98,6 +99,8 @@ const About = () => {
       <div className="mt-10">
         <Skills />
       </div>
+
+      <Timeline />
     </>
   );
 };

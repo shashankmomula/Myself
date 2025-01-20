@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const BlogsSection = () => {
   return (
-    <div className="size-auto mb-36">
+    <div className="size-auto mb-36 shadow-md rounded-md">
       <h1 className="flex justify-center text-2xl font-sans m-10 font-medium">
         Explore My Tech Blogs
       </h1>

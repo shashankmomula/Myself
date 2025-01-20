@@ -5,7 +5,7 @@ import BookCard from "./BookCard";
 
 const BooksSection=()=>{
     return(
-        <div className="mb-36 mt-16">
+        <div className="mb-36 mt-16 rounded-md shadow-md">
             <h1 className="flex justify-center text-2xl font-sans m-10 font-medium "> Exploring Programming and Tech Innovations</h1>
            
             <div className="">

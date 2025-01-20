@@ -27,35 +27,35 @@ const Contact= () => {
       {/* <div className="border-t-4 border-gray-300 my-4"></div> */}
       <form className="max-w-lg mx-auto p-6 bg-slate-100 rounded shadow-md dark:bg-slate-900 border">
         <div className="mb-4">
-          <label className=" text-gray-700 text-sm font-bold mb-2 dark:text-white" >
+          <label className=" text-gray-800 text-sm font-bold mb-2 dark:text-white" >
             Name
           </label>
           <input
             id="name"
             type="text"
             placeholder="Your name"
-            className="shadow border rounded w-full py-2 px-3 text-black"
+            className="shadow border rounded w-full py-2 px-3 text-black dark:text-white bg-slate-800 bg-opacity-10"
           />
         </div>
         <div className="mb-4">
-          <label className=" text-gray-700 text-sm font-bold mb-2 dark:text-white" >
+          <label className=" text-gray-800 text-sm font-bold mb-2 dark:text-white" >
             Email
           </label>
           <input
             id="email"
             type="email"
             placeholder="Your email"
-            className="shadow  border rounded w-full py-2 px-3 text-gray-700 "
+            className="shadow  border rounded w-full py-2 px-3 text-black dark:text-white bg-slate-800 bg-opacity-10"
           />
         </div>
         <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-white">
+          <label className="block text-gray-800 text-sm font-bold mb-2 dark:text-white">
             Message
           </label>
           <textarea
             id="message"
             placeholder="Your message"
-            className="shadow border rounded w-full py-2 px-3 text-gray-700 "
+            className="shadow border rounded w-full py-2 px-3 text-black dark:text-white bg-slate-800 bg-opacity-10"
             rows="5"
           ></textarea>
         </div>

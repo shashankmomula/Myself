@@ -4,7 +4,7 @@ import ClubActivityCard from "./ClubActivityCard";
 const ClubSection = () =>{
    
     return (
-        <div className="club-activities mb-48">
+        <div className="club-activities ">
              <h1 className="flex justify-center text-2xl font-sans m-10 font-medium">Club Activities</h1>
 
           {Activities.map(activity => (

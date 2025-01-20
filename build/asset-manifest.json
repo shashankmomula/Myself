@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shashankmomula/Myself/static/css/main.3610ee39.css",
-    "main.js": "/shashankmomula/Myself/static/js/main.481e2dca.js",
+    "main.css": "/shashankmomula/Myself/static/css/main.43e813c0.css",
+    "main.js": "/shashankmomula/Myself/static/js/main.65a01c56.js",
     "static/media/IMG_4449.jpg": "/shashankmomula/Myself/static/media/IMG_4449.54d5bdfcd3ef58c9283f.jpg",
     "static/media/cravings1.png": "/shashankmomula/Myself/static/media/cravings1.9656edb6065df90c0e33.png",
     "static/media/CA-1.png": "/shashankmomula/Myself/static/media/CA-1.b2d6e1d66d85b20c363c.png",
@@ -18,16 +18,17 @@
     "static/media/article1.png": "/shashankmomula/Myself/static/media/article1.8fe02e9221433d806695.png",
     "static/media/Graph_time.jpg": "/shashankmomula/Myself/static/media/Graph_time.cd452d38e3e4d879d3c3.jpg",
     "static/media/final.png": "/shashankmomula/Myself/static/media/final.8c3cf4bb5007a310ab6f.png",
+    "static/media/darkThemeLogo.png": "/shashankmomula/Myself/static/media/darkThemeLogo.e00be47353b83781e140.png",
     "static/media/slick.svg": "/shashankmomula/Myself/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/shashankmomula/Myself/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/shashankmomula/Myself/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/shashankmomula/Myself/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/shashankmomula/Myself/index.html",
-    "main.3610ee39.css.map": "/shashankmomula/Myself/static/css/main.3610ee39.css.map",
-    "main.481e2dca.js.map": "/shashankmomula/Myself/static/js/main.481e2dca.js.map"
+    "main.43e813c0.css.map": "/shashankmomula/Myself/static/css/main.43e813c0.css.map",
+    "main.65a01c56.js.map": "/shashankmomula/Myself/static/js/main.65a01c56.js.map"
   },
   "entrypoints": [
-    "static/css/main.3610ee39.css",
-    "static/js/main.481e2dca.js"
+    "static/css/main.43e813c0.css",
+    "static/js/main.65a01c56.js"
   ]
 }

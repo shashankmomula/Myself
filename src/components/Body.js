@@ -1,8 +1,9 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import { LOGO } from "../utils/Constants";
+// import { LOGO } from "../utils/Constants";
 // import { Link } from 'react-router-dom';
 import { Link } from "react-router-dom";
+import Diff from "./Diff";
 
 const Body = () => {
   return (
@@ -25,6 +26,7 @@ const Body = () => {
                   "Tailwind",
                   "Node.js",
                   "Express.js",
+                  "Mongo DB",
                 ]}
                 loop={5}
                 cursor
@@ -51,10 +53,11 @@ const Body = () => {
         </div>
       </div>
       <div className="w-full sm:w-1/3 mr-0 sm:mr-28 flex justify-center sm:justify-start">
-        <img
+        {/* <img
           src={LOGO}
           className="w-44 h-44 mt-6 sm:w-80 sm:h-80 sm:mt-20 mix-blend-multiply dark:mix-blend-normal"
-        />
+        /> */}
+        <Diff />
       </div>
     </section>
   );
