@@ -9,17 +9,17 @@ import Testimonials from "./TestimonalSection";
 
 const PublicationsInsights = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 mt-16">
+    <div className="min-h-screen bg-white pt-24 pb-12 px-4 sm:px-6 lg:px-8 w-full">
       {/* Navigation */}
       <BackgroundNav />
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Header Section */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-600 to-yellow-500 bg-clip-text text-transparent mb-4">
+        <div className="text-center mb-10">
+          {/* <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-600 to-yellow-500 bg-clip-text text-transparent mb-4">
             Publications & Insights
-          </h2>
+          </h2> */}
           <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
             Explore my publications, blog posts, and professional journey
           </p>

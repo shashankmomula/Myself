@@ -12,11 +12,11 @@ import PublicationsInsights from "./components/PublicationInsights";
 
 const AppLayout = () => {
   return (
-    <div className="app relative min-h-screen bg-white">
-      <div className="relative z-10">
-        <Header />
+    <div className="app min-h-screen bg-white">
+      <Header />
+      <main className="relative">
         <Outlet />
-      </div>
+      </main>
     </div>
   );
 };

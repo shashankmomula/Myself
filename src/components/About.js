@@ -32,7 +32,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8 mt-16">
+    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 pt-32 pb-32 px-4 sm:px-6 lg:px-8 w-full">
       <div className="max-w-7xl mx-auto">
         {/* Profile Section */}
         <motion.div 
