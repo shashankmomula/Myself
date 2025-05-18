@@ -1,22 +1,29 @@
-
-import { Bookitems, items } from "../utils/BooksData";
+import { Bookitems } from "../utils/BooksData";
 import BookCard from "./BookCard";
 
+const BooksSection = () => {
+  return (
+    <div className="space-y-8">
+      <div className="text-center">
+        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 to-yellow-500 bg-clip-text text-transparent mb-4">
+          Exploring Programming and Tech Innovations
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
+          Discover my published works and technical insights
+        </p>
+      </div>
 
-const BooksSection=()=>{
-    return(
-        <div className="mb-36 mt-16 rounded-md shadow-md">
-            <h1 className="flex justify-center text-2xl font-sans m-10 font-medium "> Exploring Programming and Tech Innovations</h1>
-           
-            <div className="">
-      {Bookitems.map((item) => (
-        <BookCard key={item.id} image={item.image} description={item.description} />
-       
-      ))}
+      <div className="grid grid-cols-1 gap-8">
+        {Bookitems.map((item) => (
+          <BookCard 
+            key={item.id} 
+            image={item.image} 
+            description={item.description} 
+          />
+        ))}
+      </div>
     </div>
-            
-        </div>
-    );
+  );
 };
 
 export default BooksSection;

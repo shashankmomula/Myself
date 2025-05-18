@@ -9,11 +9,14 @@ import Projects from "./components/Projects";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import PublicationsInsights from "./components/PublicationInsights";
+
 const AppLayout = () => {
   return (
-    <div className="app bg-gray-100 text-black dark:bg-gray-900 dark:text-white min-h-screen">
-      <Header />
-      <Outlet />
+    <div className="app relative min-h-screen bg-white">
+      <div className="relative z-10">
+        <Header />
+        <Outlet />
+      </div>
     </div>
   );
 };

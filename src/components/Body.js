@@ -4,16 +4,34 @@ import { Typewriter } from "react-simple-typewriter";
 // import { Link } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Diff from "./Diff";
+import { motion } from "framer-motion";
 
 const Body = () => {
   return (
-    <section className="flex flex-col-reverse sm:flex-row justify-between items-center sm:items-start">
-      <div className="flex flex-col items-center sm:items-start pt-10 sm:pt-28elx justify-between sm:flex flex-col">
-        <div className="font-serif text-center text-2xl m-10 sm:ml-28 lg:mr-28 mt-16 sm:text-4xl">
-          <h1>Hi, My name is Shashank</h1>
-          <h2 className="h-10 h-12">
-            and I am good at{" "}
-            <span className="text-yellow-800 font-serif inline-block dark:text-yellow-200">
+    <section className="min-h-screen flex flex-col-reverse sm:flex-row justify-between items-center sm:items-center px-4 sm:px-8 lg:px-16 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+      <motion.div 
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        className="flex flex-col items-center sm:items-start pt-10 sm:pt-0 justify-between sm:flex flex-col max-w-2xl"
+      >
+        <div className="font-serif text-center sm:text-left">
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-amber-600 to-yellow-500 bg-clip-text text-transparent"
+          >
+            Hi, I'm Shashank
+          </motion.h1>
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="text-2xl sm:text-3xl lg:text-4xl mb-8 text-gray-700 dark:text-gray-300"
+          >
+            I specialize in{" "}
+            <span className="text-amber-600 dark:text-amber-400 font-bold">
               <Typewriter
                 words={[
                   "HTML",
@@ -36,29 +54,44 @@ const Body = () => {
                 delaySpeed={1000}
               />
             </span>
-          </h2>
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="text-gray-600 dark:text-gray-400 text-lg mb-8 max-w-xl"
+          >
+            A passionate full-stack developer crafting beautiful and functional web experiences.
+          </motion.p>
         </div>
 
-        <div className="flex sm:ml-36">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8 }}
+          className="flex flex-col sm:flex-row gap-4"
+        >
           <Link to="/skills">
-            <button className="bg-amber-100 rounded-md p-5 m-5 sm:w-auto h-auto dark:text-black">
+            <button className="bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold px-8 py-4 rounded-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg">
               Explore My Work
             </button>
           </Link>
           <Link to="/contact">
-            <button className="bg-slate-400 rounded-md p-5 m-5 bg-opacity-15 sm:">
+            <button className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white font-semibold px-8 py-4 rounded-lg border-2 border-amber-500 hover:bg-amber-50 dark:hover:bg-gray-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
               Get In Touch
             </button>
           </Link>
-        </div>
-      </div>
-      <div className="w-full sm:w-1/3 mr-0 sm:mr-28 flex justify-center sm:justify-start">
-        {/* <img
-          src={LOGO}
-          className="w-44 h-44 mt-6 sm:w-80 sm:h-80 sm:mt-20 mix-blend-multiply dark:mix-blend-normal"
-        /> */}
+        </motion.div>
+      </motion.div>
+
+      <motion.div 
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        className="w-full sm:w-1/2 lg:w-1/3 flex justify-center sm:justify-end mt-8 sm:mt-0"
+      >
         <Diff />
-      </div>
+      </motion.div>
     </section>
   );
 };
